@@ -16,7 +16,7 @@ spec:
         "beta.kubernetes.io/os": linux
       containers:
       - name: php-app
-        image: 
+        image:  reegistrydev.azurecr.io/harshinirr/docker-php-helloworld_dev:12
         env:
         - name: ALLOW_EMPTY_PASSWORD
           value: "yes"
